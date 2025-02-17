@@ -28,7 +28,7 @@ TeleCopier is an AI-powered trading automation tool for **cTrader**, designed to
 - Provides real-time trade management through the UI panel.
 
 ## Installation
-1. For the easiest installation, 
+1. For the easiest installation, run the TeleCopierV1.algo file and it will install all relevent project and solution files within cTrader for you.
 2. Open the project in **cTrader Automate (cAlgo)**.
 3. Compile and run the bot within cTrader.
 4. Configure the **UI panel settings** to match your trading preferences.
