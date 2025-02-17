@@ -1,0 +1,236 @@
+[
+  {
+    "Flags": "Indicator",
+    "Guid": "00000000-0000-0000-0000-000000000000",
+    "Group": "Custom",
+    "FriendlyName": "TeleCopierV1",
+    "ShortName": null,
+    "TypeName": "cAlgo.TeleCopierV1",
+    "AssemblyName": "TeleCopierV1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+    "TimeZone": "UTC",
+    "IsOverlay": true,
+    "IsPercentage": false,
+    "ScalePrecision": null,
+    "Levels": [],
+    "DefaultSymbolName": null,
+    "DefaultTimeFrame": null,
+    "Video": null,
+    "Lines": [],
+    "Clouds": [],
+    "Parameters": [
+      {
+        "MinValue": -2147483648,
+        "MaxValue": 2147483647,
+        "Step": 1,
+        "DefaultValue": 1,
+        "ParameterType": "Integer",
+        "PropertyName": "TelegramRefreshTimer",
+        "FriendlyName": "Telegram Refresh Seconds",
+        "GroupName": "Telegram Scanner",
+        "IsValueVisibleInTitle": true
+      },
+      {
+        "DefaultValue": false,
+        "ParameterType": "Boolean",
+        "PropertyName": "OnWindow",
+        "FriendlyName": "On Window?",
+        "GroupName": "Telegram Scanner",
+        "IsValueVisibleInTitle": true
+      },
+      {
+        "MinValue": -2147483648,
+        "MaxValue": 2147483647,
+        "Step": 1,
+        "DefaultValue": 5,
+        "ParameterType": "Integer",
+        "PropertyName": "MaxRetries",
+        "FriendlyName": "Max Retries After Failed API Call",
+        "GroupName": "AI Extraction",
+        "IsValueVisibleInTitle": true
+      },
+      {
+        "EnumValues": {
+          "Center": 0,
+          "Top": 1,
+          "Bottom": 2,
+          "Stretch": 3
+        },
+        "DefaultValue": 1,
+        "ParameterType": "Enum",
+        "PropertyName": "PanelVerticalAlignment",
+        "FriendlyName": "Vertical Position",
+        "GroupName": "Panel alignment",
+        "IsValueVisibleInTitle": true
+      },
+      {
+        "EnumValues": {
+          "Center": 0,
+          "Left": 1,
+          "Right": 2,
+          "Stretch": 3
+        },
+        "DefaultValue": 1,
+        "ParameterType": "Enum",
+        "PropertyName": "PanelHorizontalAlignment",
+        "FriendlyName": "Horizontal Position",
+        "GroupName": "Panel alignment",
+        "IsValueVisibleInTitle": true
+      },
+      {
+        "MinValue": -1.7976931348623157E+308,
+        "MaxValue": 1.7976931348623157E+308,
+        "Step": 0.1,
+        "DefaultValue": 0.01,
+        "ParameterType": "Double",
+        "PropertyName": "DefaultLots",
+        "FriendlyName": "Default Lots",
+        "GroupName": "Default trade parameters",
+        "IsValueVisibleInTitle": true
+      },
+      {
+        "MinValue": -1.7976931348623157E+308,
+        "MaxValue": 1.7976931348623157E+308,
+        "Step": 0.1,
+        "DefaultValue": 0.5,
+        "ParameterType": "Double",
+        "PropertyName": "DefaultPercentRisk",
+        "FriendlyName": "Default % Risk",
+        "GroupName": "Default trade parameters",
+        "IsValueVisibleInTitle": true
+      },
+      {
+        "DefaultValue": false,
+        "ParameterType": "Boolean",
+        "PropertyName": "DefaultHasFixedLots",
+        "FriendlyName": "Has Fixed Lots",
+        "GroupName": "Default trade parameters",
+        "IsValueVisibleInTitle": true
+      },
+      {
+        "DefaultValue": false,
+        "ParameterType": "Boolean",
+        "PropertyName": "DefaultUseAutoBreakeven",
+        "FriendlyName": "Default Use Auto Breakeven",
+        "GroupName": "Default trade parameters",
+        "IsValueVisibleInTitle": true
+      },
+      {
+        "DefaultValue": false,
+        "ParameterType": "Boolean",
+        "PropertyName": "DefaultUseMultiTp",
+        "FriendlyName": "Default Use Multi TP",
+        "GroupName": "Default trade parameters",
+        "IsValueVisibleInTitle": true
+      },
+      {
+        "DefaultValue": false,
+        "ParameterType": "Boolean",
+        "PropertyName": "DefaultUsePartial",
+        "FriendlyName": "Default Use Partial Close",
+        "GroupName": "Default trade parameters",
+        "IsValueVisibleInTitle": true
+      },
+      {
+        "DefaultValue": "EMPTY",
+        "ParameterType": "String",
+        "PropertyName": "DefaultCloseTime",
+        "FriendlyName": "Default Close Time",
+        "GroupName": "Default trade parameters",
+        "IsValueVisibleInTitle": true
+      },
+      {
+        "DefaultValue": "231904319",
+        "ParameterType": "String",
+        "PropertyName": "TradeIdNumber",
+        "FriendlyName": "Trade ID Number",
+        "GroupName": "Default trade parameters",
+        "IsValueVisibleInTitle": true
+      },
+      {
+        "MinValue": 0.0,
+        "MaxValue": 99.0,
+        "Step": 0.1,
+        "DefaultValue": 50.0,
+        "ParameterType": "Double",
+        "PropertyName": "PartialSlReductionPercent",
+        "FriendlyName": "TP % for SL Reduction",
+        "GroupName": "Auto B/E",
+        "IsValueVisibleInTitle": true
+      },
+      {
+        "MinValue": 0.0,
+        "MaxValue": 100.0,
+        "Step": 0.1,
+        "DefaultValue": 50.0,
+        "ParameterType": "Double",
+        "PropertyName": "SlReductionFactor",
+        "FriendlyName": "SL Reduction %",
+        "GroupName": "Auto B/E",
+        "IsValueVisibleInTitle": true
+      },
+      {
+        "MinValue": 0.0,
+        "MaxValue": 100.0,
+        "Step": 0.1,
+        "DefaultValue": 50.0,
+        "ParameterType": "Double",
+        "PropertyName": "AutoBreakevenPercent",
+        "FriendlyName": "Auto B/E %",
+        "GroupName": "Auto B/E",
+        "IsValueVisibleInTitle": true
+      },
+      {
+        "MinValue": 0.0,
+        "MaxValue": 99.0,
+        "Step": 0.1,
+        "DefaultValue": 50.0,
+        "ParameterType": "Double",
+        "PropertyName": "PartialTriggerPercent",
+        "FriendlyName": "TP % for Partial Close",
+        "GroupName": "Partial Close",
+        "IsValueVisibleInTitle": true
+      },
+      {
+        "MinValue": 0.0,
+        "MaxValue": 100.0,
+        "Step": 0.1,
+        "DefaultValue": 50.0,
+        "ParameterType": "Double",
+        "PropertyName": "VolumeReductionFactor",
+        "FriendlyName": "Close Position by %",
+        "GroupName": "Partial Close",
+        "IsValueVisibleInTitle": true
+      },
+      {
+        "MinValue": 0.0,
+        "MaxValue": 100.0,
+        "Step": 0.1,
+        "DefaultValue": 50.0,
+        "ParameterType": "Double",
+        "PropertyName": "FirstPercentToClose",
+        "FriendlyName": "% Close at First TP",
+        "GroupName": "Multiple TP",
+        "IsValueVisibleInTitle": true
+      },
+      {
+        "MinValue": 0.0,
+        "MaxValue": 1.7976931348623157E+308,
+        "Step": 0.1,
+        "DefaultValue": 100.0,
+        "ParameterType": "Double",
+        "PropertyName": "SecondTPMultiplier",
+        "FriendlyName": "Second TP % Multiplier",
+        "GroupName": "Multiple TP",
+        "IsValueVisibleInTitle": true
+      }
+    ],
+    "Capabilities": [
+      {
+        "CapabilityType": "FullTrust"
+      }
+    ],
+    "CustomAttributes": [],
+    "Sets": [],
+    "AddIndicatorsToChart": false
+  }
+]

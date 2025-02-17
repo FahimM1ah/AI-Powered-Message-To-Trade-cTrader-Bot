@@ -1,0 +1,12 @@
+C:\Users\nword\Documents\cAlgo\Sources\Indicators\TeleCopierV1\TeleCopierV1\bin\Debug\net6.0\TeleCopierV1.deps.json
+C:\Users\nword\Documents\cAlgo\Sources\Indicators\TeleCopierV1\TeleCopierV1\bin\Debug\net6.0\TeleCopierV1.dll
+C:\Users\nword\Documents\cAlgo\Sources\Indicators\TeleCopierV1\TeleCopierV1\bin\Debug\net6.0\TeleCopierV1.pdb
+C:\Users\nword\Documents\cAlgo\Sources\Indicators\TeleCopierV1\TeleCopierV1\obj\Debug\net6.0\TeleCopierV1.csproj.AssemblyReference.cache
+C:\Users\nword\Documents\cAlgo\Sources\Indicators\TeleCopierV1\TeleCopierV1\obj\Debug\net6.0\TeleCopierV1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nword\Documents\cAlgo\Sources\Indicators\TeleCopierV1\TeleCopierV1\obj\Debug\net6.0\TeleCopierV1.AssemblyInfoInputs.cache
+C:\Users\nword\Documents\cAlgo\Sources\Indicators\TeleCopierV1\TeleCopierV1\obj\Debug\net6.0\TeleCopierV1.AssemblyInfo.cs
+C:\Users\nword\Documents\cAlgo\Sources\Indicators\TeleCopierV1\TeleCopierV1\obj\Debug\net6.0\TeleCopierV1.csproj.CoreCompileInputs.cache
+C:\Users\nword\Documents\cAlgo\Sources\Indicators\TeleCopierV1\TeleCopierV1\obj\Debug\net6.0\TeleCopierV1.dll
+C:\Users\nword\Documents\cAlgo\Sources\Indicators\TeleCopierV1\TeleCopierV1\obj\Debug\net6.0\refint\TeleCopierV1.dll
+C:\Users\nword\Documents\cAlgo\Sources\Indicators\TeleCopierV1\TeleCopierV1\obj\Debug\net6.0\TeleCopierV1.pdb
+C:\Users\nword\Documents\cAlgo\Sources\Indicators\TeleCopierV1\TeleCopierV1\obj\Debug\net6.0\ref\TeleCopierV1.dll
